@@ -75,8 +75,9 @@ html {
 
 .rose-middle-data {
   position: absolute;
-  left: -38px;
-  margin-top: 30px;
+  left: 15px;
+  margin-top: 36px;
+  z-index: -1;
 }
 
 .rose-left-footer {
@@ -105,7 +106,7 @@ html {
   }
 
   .hero h1 {
-    font-family: "Great Vibes", cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 130%;
@@ -401,6 +402,12 @@ html {
     animation-name: slideInBottom;
   }
 
+  .rose-middle-data {
+    position: absolute;
+    left: -15px;
+    margin-top: 85px;
+  }
+
   /* Keyframes */
   @keyframes slideInLeft {
     0% {
@@ -489,7 +496,7 @@ html {
   }
 
   .hero h1 {
-    font-family: "Great Vibes", cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 130%;
@@ -834,7 +841,7 @@ html {
 }
 
 .hero h1 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 80px;
   font-weight: 500;
   line-height: 130%;
@@ -1172,3 +1179,11 @@ html {
 /*  transition-delay: 1s;*/
 /*}*/
 /* добавь больше при необходимости */
+
+@media (max-width: 500px) {
+  .rose-middle-data {
+    position: absolute;
+    left: 15px;
+    margin-top: 36px;
+  }
+}
