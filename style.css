@@ -128,6 +128,7 @@ html {
 
   .text {
     font-family: "Dancing Script", cursive;
+    font-weight: bold;
     font-size: 24px;
     max-width: 600px;
     margin: 0 auto;
@@ -198,12 +199,12 @@ html {
 
   .location-restaurant {
     font-family: "Dancing Script", cursive;
-    font-size: 45px;
+    font-size: 36px;
   }
 
   .restaurant-name {
     font-family: "Dancing Script", cursive;
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .location {
@@ -213,7 +214,7 @@ html {
   .location-address {
     font-family: "Dancing Script", cursive;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: bold;
     font-style: italic;
   }
 
@@ -237,6 +238,7 @@ html {
 
   .location-welcome {
     font-family: "Dancing Script", cursive;
+    font-weight: bold;
     font-size: 22px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -245,6 +247,7 @@ html {
   .family-name {
     font-family: "Dancing Script", cursive;
     font-size: 22px;
+    font-weight: bold;
   }
   .music-control {
     margin-bottom: 20px;
@@ -564,7 +567,7 @@ html {
 
   .restaurant-name {
     font-family: "Great Vibes", cursive;
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .location {
@@ -910,7 +913,7 @@ html {
 
 .restaurant-name {
   font-family: "Great Vibes", cursive;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .location {
@@ -1180,10 +1183,10 @@ html {
 /*}*/
 /* добавь больше при необходимости */
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .rose-middle-data {
     position: absolute;
     left: 15px;
     margin-top: 36px;
   }
-}
+} */
