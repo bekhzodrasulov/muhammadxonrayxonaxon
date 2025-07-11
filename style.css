@@ -122,8 +122,8 @@ html {
   }
 
   .wedding-date {
+    font-family: "Dancing Script", cursive;
     font-size: 24px;
-    margin-top: 30px;
   }
 
   .text {
@@ -175,6 +175,7 @@ html {
   .calendar th,
   .calendar td {
     font-family: "Dancing Script", cursive;
+    font-weight: 500;
     font-size: 20px;
     width: 40px;
     height: 40px;
@@ -512,10 +513,6 @@ html {
 
   .date-section {
     padding: 20px;
-  }
-
-  .date-section h2 {
-    font-size: 30px;
   }
 
   .names {
@@ -857,10 +854,6 @@ html {
 
 .date-section {
   padding: 20px;
-}
-
-.date-section h2 {
-  font-size: 30px;
 }
 
 .names {
